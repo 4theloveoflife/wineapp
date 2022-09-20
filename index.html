@@ -6,142 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Do you love wine?.">
     <title>Wine Lovers Unite</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/portfolio.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&family=Fira+Sans:wght@300&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/eda518359f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>
         <div class="container">
             <nav class="d-flex justify-content-between">
                 <a href="/" title="Homepage">
                     <img src="images/logobw.png" class="logo rounded d-none d-md-block" alt="Tiffany logo">
-                    <img src="images/logobwsm.png" class="logo d-block d-md-none rounded" alt="Tiffany logo">
                 </a>
                 <ul>
                     <li class="active">
                         <a href="/" title="Homepage">Home </a>
                     </li>
                     <li>
-                        <a href="/about.html" title="About Tiffany"> About</a>
+                        <a href="/reds.html" title="Dinner Options"> Red Wine</a>
                     </li>
                     <li>
-                        <a href="/work.html" title="Tiffany's work"> Work</a>
+                        <a href="/whites.html" title="Appertizers"> White Wine</a>
                     </li>
                     <li>
-                        <a href="/contact.html" title="Contact Tiffany"> Contact</a>
+                        <a href="/desserts.html" title="Just Desserts"> Dessert Wine</a>
                     </li>
                 </ul>
         </div>
         </nav>
-        <div class="hero container" id="banner">
+        <div class="hero">
             <h1> 🍷Welcome to the World Wonders of Wine</h1>
             <img
-            src="images/wine.jpg" alt="glass of wine and grapes" class="wine-intro img-fluid"/>
+            src="images/wineglasses.jpg" class="img-fluid rounded"/>
           <p>Put your mind at ease and let us help guide you</p>
         </div>
-        <div class="container">
-            <div class="row mb-4">
-                <div class="col-sm-6 d-none d-lg-block">
-                    <a href="https://aruga-online.shop-pro.jp/?pid=136757481"  title="Click to Purchase">
-                    <img
-                   src="images/katsunuma-red.jpg" class="img-fluid rounded"
-                        alt="bottle of red wine"></a> 
-                </div>
-                <div class="col-sm-6">
-                    <div class="wine-description">
-                        <h2 class="mb-5">
-                            Red Wine
-                        </h2>
-                        <p class="mb-4">
-                            Hold a glass of red wine the color of criminson and scarlet.
-                            Always a classic, bold, and rich bottle to go to for any occasion. 
-                        </p>
-                        <a href="/reds.html" title="Click to learn about red wine" class="btn btn-branding-outline">
-                        Learn More
-                    </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-sm-6">
-                    <div class="wine-description">
-                        <h2 class="mb-5">
-                           White Wine
-                        </h2>
-                        <p class="mb-4 ">
-                           White Wines tend to have a representation of sweet, light, and not full of flavor. However, the list of white 
-                           wine is endless and each adds it's own ambience.
-                        </p>
-                        <a href="/whites.html" class="btn btn-branding-outline">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-sm-6 d-none d-lg-block">
-                    <a href="https://www.hombo.co.jp/item/wine/cm_cp_chardonnay/"  title="Click here to purchase">
-                    <img  src="images/chardonnay-mars.webp"  class="img-fluid rounded"   alt="bottle of chardonnay" >
-                     </a>
-                </div>
-            </div>
-            <div class=" row mt-5">
-                <div class="col-sm-6 d-none d-lg-block">
-                    <a href="https://drizly.com/wine/dessert-fortified-wine/ice-wine/inniskillin-vidal-pearl-ice-wine/p5086" title="click here to purchase">
-                    <img src="images/ice-wine.webp" class="img-fluid rounded" alt="bottle of ice wine"> 
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-sm-6 d-none d-lg-block">
+            <a href="https://aruga-online.shop-pro.jp/?pid=136757481" title="Click to Purchase">
+            <img src="images/katsunuma-red.jpg"  class="img-fluid rounded shadow border" id="home-wine"
+                alt="bottle of red wine"/>
                 </a>
-                </div>
-                <div class="col-sm-6">
-                    <div class="wine-description">
-                        <h2 class="mb-5">
-                            Dessert wine
-                        </h2>
-                        <p class="mb-4 ">
-                           Who says the flow must end? Let's look at the delectible dessert options wine has to offer. 
-                        </p>
-                        <a href="/desserts.html" class="btn btn-branding-outline">Learn More</a>
-                    </div>
-                </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="wine-description">
+                <h2 class="mb-5">
+                Red Wine
+                </h2>
+                <p class="mb-4 text-muted">
+                    Hold a glass of red wine the color of criminson and scarlet.
+                    Always a classic, bold, and rich bottle to go to for any occasion.
+                </p>
+                <a href="/reds.html" title="Click to learn about red wine" class="btn btn-branding-outline">
+                    Learn More
+                </a>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-sm-6">
+            <div class="wine-description">
+                <h2 class="mb-5">
+                White Wine
+                </h2>
+                <p class="mb-4 text-muted">
+                White Wines tend to have a representation of sweet, light, and not full of flavor. However, the list of white
+                wine is endless and each adds it's own ambience.
+                </p>
+                <a href="whites.html" target="_blank" title="Click here to purchase" class="btn btn-branding-outline">
+                    Learn More</a>
+            </div>
+        </div>
+        <div class="col-sm-6 d-none d-lg-block">
+            <img src="images/chardonnay-mars.webp" class="img-fluid rounded shadow  border" id="home-wine" 
+            alt="bottle of chardonnay"/>
+        </div>
+    </div>
+    <div class=" row mt-5">
+        <div class="col-sm-6 d-none d-lg-block">
+            <a href="https://drizly.com/wine/dessert-fortified-wine/ice-wine/inniskillin-vidal-pearl-ice-wine/p5086" target="_blank"
+                title="click here to purchase">
+                <img
+                 src="images/ice-wine.webp" class="img-fluid rounded shadow border" id="home-wine" alt="bottle of ice wine"/>
+            </a>
+        </div>
+        <div class="col-sm-6">
+            <div class="wine-description">
+                <h2 class="mb-5">
+                Dessert wine
+                </h2>
+                <p class="mb-4 text-muted">
+                    Who says the flow must end? Let's look at the delectible dessert options wine has to offer.
+                </p>
+                <a href="/desserts.html" target="_blank"
+                    class="btn btn-branding-outline">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </div>
 
     <footer>
-        <h5>
+        <h3>
             This website does not work for or is affiliated with any of the brands or links on this page.
-        </h5>
+        </h3>
         <p>
-            <a
-                href="https://www.freepik.com/free-photo/front-view-wine-glasses-fresh-grapes-walnuts-yellow-cheese-wood-board-overturned-bottle-dark-background_17232192.htm#query=wine%20background&position=0&from_view=search">Image
-                by KamranAydinov</a> on Freepik
+         <a href="https://www.freepik.com/">Images
+                    can be found</a> on Freepik
         </p>
-    
     </footer>
 </body>
 </html>
