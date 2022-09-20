@@ -16,7 +16,9 @@ sans-serif;*/
 
 body{
     font-family:var(--default-font-family);
-    background:rgb(66, 73, 73) ;
+    background:rgb(66, 73, 73);
+    margin: 60px auto;
+    max-width: 800px;
 }
 
 h1,
@@ -83,6 +85,10 @@ nav a:hover,
 li.active a {
     color: var(--branding-color);
 }
+.headline p{
+    display: flex;
+    margin: 30px 0;
+}
 
 .btn-branding {
     background: var rgb(99, 33, 33);
@@ -104,9 +110,13 @@ li.active a {
     padding:20px 30px;
 }
 
+.img {
+    vertical-align: middle;
+}
+
 .image-fluid{
-    max-width: 100px;
-    height:auto;
+    width: 100;
+     height: auto;
    border:5px solid #555
 }
 
@@ -116,4 +126,8 @@ li.active a {
 
 .border{
     border: var(--border);
+}
+
+.rounded {
+    border-radius: 0.25rem;
 }
