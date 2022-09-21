@@ -92,8 +92,12 @@ border: white;
     padding:20px 30px;
 }
 
-.img {
+.img  {
     vertical-align: middle;
+}
+
+.wine{
+    padding: 40px 20px;
 }
 
 .image-fluid{
