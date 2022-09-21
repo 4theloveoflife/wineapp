@@ -35,67 +35,38 @@ h1{
 }
 
 h2{
-    font-size: 50px;
+    font-size:20 px;
 }
 
 h3{
     font-size: 30px;
+    text-align: center;
 }
 p{
+    font-family: var(--default-font-family);
     font-size: 20px;
     font-weight: normal;
-}
-
-.hero{
-    margin:10px auto;
-}
-
-.hero p{
-    font-size: 32px;
-    font-family: var(--default-font-family);
 }
 
 .logo {
     max-width: 30px;
 }
 
-nav {
-    padding: 20px 0;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    list-style: none;
-    line-height: 42px;
-    margin-left: 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: rgb(56, 13, 13); ;
+.navbar{
     transition: all 100ms ease-in-out;
 }
 
-nav a:hover,
-li.active a {
-    color: var(--branding-color);
-}
-.headline p{
-    display: flex;
-    margin: 30px 0;
+.navbar-custom {
+    background-color: var(--branding-color);
 }
 
 .btn-branding {
-    background: var rgb(99, 33, 33);
     border-radius: 4px;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+    text-decoration: none;
+    color:white
 }
 
 .btn-branding-outline {
@@ -106,6 +77,17 @@ li.active a {
     line-height: 27px;
     padding: 15px 30px;
 }
+
+.btn-branding-outline:hover{
+background: rgb(99, 33, 33);
+border: white;
+}
+
+.learn-link{
+    color:white;
+    text-decoration: none;
+}
+
 .wine-description p{
     padding:20px 30px;
 }
@@ -130,4 +112,31 @@ li.active a {
 
 .rounded {
     border-radius: 0.25rem;
+}
+
+.pics{
+    text-decoration: none;
+}
+
+@media (max-width:576px) {
+    h1 {
+        font-size: 48px;
+        line-height: 1.5;
+    }
+
+    h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+ .learn-link {
+        display: block;
+        text-align: center;
+        margin: 0 20px;
+        padding: 5px 5px;
+    }
 }
